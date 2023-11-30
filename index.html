@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/func.js"></script>
+</head>
+
+<body>
+
+    <h2>Вывод всех аудиторий: </h2>
+    <button onclick="Print(Audience)">Click</button>
+
+    <h2>Вывод аудиторий для указаного факультета: </h2>
+    <button onclick="PrintSpecificAudience(Audience)">Click</button>
+
+    <h2>Вывод тех аудиторий, которые подходят для переданной группы: </h2>
+    <button onclick="PrintSuitableAudiences(Audience, Groups)">Click</button>
+
+    <h2>Сортировка по количеству мест: </h2>
+    <button onclick="SortByNumberOfSeats(Audience)">For sort</button>
+    <button onclick="Print(Audience)">For print</button>
+
+    <h2>Сортировка аудиторий по названию (по алфавиту): </h2>
+    <button onclick="SortByName(Audience)">For sort</button>
+    <button onclick="Print(Audience)">For print</button>
+
+
+</body>
+
+</html>
